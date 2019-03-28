@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+.banner{
+    background-image: url(../img/nature.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom:  5px solid #34495e;
+}
+
+.bio{
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.bio a{
+    text-decoration: none;
+    color: black;
+}
+
+.bio strong{
+    font-size: 1.3em;
+}
+
+.profil{
+    width: 15%;
+    border-radius: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 8px solid #d35400;
+}
+
+.tengah img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: -120px;
+}
+
+.footer{
+    background-color: #34495e;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 10px 0
+}
+.footer p a{
+    text-decoration: none;
+    color: #fff;
+}
